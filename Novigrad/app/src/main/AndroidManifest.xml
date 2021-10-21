@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.novigrad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CheckStatus"></activity>
+        <activity android:name=".ReviewBranch" />
+        <activity android:name=".SelectService" />
+        <activity android:name=".FindByServices" />
+        <activity android:name=".FindByAddress" />
+        <activity android:name=".FindByHours" />
+        <activity android:name=".FindBranch" />
+        <activity android:name=".FillDocument" />
+        <activity android:name=".CustomerWelcome" />
+        <activity android:name=".Request" />
+        <activity android:name=".service_available" />
+        <activity android:name=".RemoveService" />
+        <activity android:name=".ManageAccounts" />
+        <activity android:name=".CreateService" />
+        <activity android:name=".AdminWelcome" />
+        <activity android:name=".EmployeeWelcome" />
+        <activity android:name=".Register" />
+        <activity android:name=".SetBranchHours" />
+        <activity android:name=".UpdateServices" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
